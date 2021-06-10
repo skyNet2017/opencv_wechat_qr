@@ -5,10 +5,7 @@ plugins {
 android {
     signingConfigs {
         debug {
-            storeFile file('/Users/wangzy/appKeys/wzykey.jks')
-            storePassword 'wzy2006'
-            keyPassword 'wzy2006'
-            keyAlias 'wzy'
+
         }
     }
     compileSdkVersion 29
